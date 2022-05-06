@@ -11,7 +11,7 @@ export function Login(){
   
   const emailRef = useRef();
   const passwordRef = useRef();
-  const {login, currentUser} = useAuth();
+  const {login} = useAuth();
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();

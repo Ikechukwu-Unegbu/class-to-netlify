@@ -1,7 +1,7 @@
-import { getAuth } from "firebase/auth";
+//import { getAuth } from "firebase/auth";
 import { Navigate } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
+// import { Route, Routes } from "react-router-dom";
+// import { useAuth } from "../context/AuthContext";
 
 
 const Auth=()=>{

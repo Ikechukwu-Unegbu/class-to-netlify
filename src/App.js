@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { Signup } from './pages/authpages/Signup';
 import { Container } from 'react-bootstrap';
