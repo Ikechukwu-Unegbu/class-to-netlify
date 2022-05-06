@@ -7,7 +7,7 @@ import { getAuth,
    sendPasswordResetEmail,
 
    signOut } from "firebase/auth";
-// import app from '../firebase';
+ import app from '../firebase';
 
 const AuthContext = React.createContext();
 
@@ -25,7 +25,7 @@ export function AuthProvider({children}){
    }
 
    function login(email, password){
-      const auth = getAuth();
+      const auth = getAuth(app);
       return signInWithEmailAndPassword(auth, email, password);
    }
 
